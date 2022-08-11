@@ -1,0 +1,9 @@
+
+version: '3'
+
+services:
+  cli:
+    tty: true
+    build: './cli'
+    volumes:
+      - './cli:/app'
