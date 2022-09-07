@@ -1,19 +1,16 @@
 # Clead DB
 
+SQL for files
+
 ```sql
-> select * from posts;
+> select id, name, age from people;
 returning `nothing to see`
 ```
 
 ```sql
-> insert into posts (name) values ('Daniels');
+> insert into people (name, age) values ('Janaina', '23');
 inserting 1 object 
 
-> select * from posts;
+> select * from people;
 returning 1 object
------------
-- name    -
------------
-- Daniels -
------------
 ```
