@@ -1,0 +1,7 @@
+{
+  "version": "0.0.1",
+  "scripts": {
+    "cli": "node ./cli.js",
+    "server": "node ./server.js"
+  }
+}
