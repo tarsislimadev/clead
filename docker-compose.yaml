@@ -2,8 +2,11 @@
 version: '3'
 
 services:
-  cli:
+  app:
     tty: true
-    build: './cli'
+    build: './app'
+    ports:
+      - '80:80'
     volumes:
-      - './cli:/app'
+      - './app:/app'
+      - './data:/data'
